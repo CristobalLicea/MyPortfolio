@@ -10,7 +10,7 @@ const Landing = () => {
         <div className='hero-text'>
           <h1>Full-Stack React Developer 😊</h1>
           <p>Hi, I'm Cristobal Licea. A passionate Full-Stack React Developer based in Houston, Texas. 📍</p>
-          <div style={{ display: 'flex', gap: '10px'}}>
+          <div className="landing-icons">
             <div>
               <FaLinkedin className="landing-icon"/>
             </div>
@@ -21,7 +21,7 @@ const Landing = () => {
         </div>
         <div className="hero-img"></div>
         </div>
-        <div style={{marginTop: '50px', display: 'flex', gap: '15px', alignItems: 'center'}}>
+        <div className="tech-stack">
           <h2>Tech Stack |</h2>
           <div className="landing-tech"></div>
           <div className="landing-tech"></div>

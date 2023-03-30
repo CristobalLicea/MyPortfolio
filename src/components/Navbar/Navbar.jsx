@@ -7,13 +7,22 @@ const Navbar = () => {
       <div>coder.cristobal.dev</div>
       <div>
         <ul>
-          <li>Home</li>
+          <li onClick={(e) => {
+            e.preventDefault();
+            document.querySelector('#homepage').scrollIntoView({ behavior: 'smooth'})
+          }}>Home</li>
           <li onClick={(e) => {
             e.preventDefault();
             document.querySelector('#about').scrollIntoView({ behavior: 'smooth'})
           }}>About me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li onClick={(e) => {
+            e.preventDefault();
+            document.querySelector('#about').scrollIntoView({ behavior: 'smooth'})
+          }}>Projects</li>
+          <li onClick={(e) => {
+            e.preventDefault();
+            document.querySelector('#about').scrollIntoView({ behavior: 'smooth'})
+          }}>Contact</li>
         </ul>
       </div>
     </div>
