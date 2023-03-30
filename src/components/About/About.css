@@ -1,0 +1,39 @@
+#about {
+padding: 150px 0;
+}
+
+.about-container{
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  width: 370px;
+  height: 370px;
+  background-color:rgb(172, 172, 172);
+  border-radius: 30px
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-text span{
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(255, 74, 74);
+}
+
+.about-text h3{
+  margin-top: 10px;
+  font-size: 27px;
+  font-weight: 800;
+}
+.about-text p{
+  font-size: 18px;
+  line-height: 1.5;
+  color: gray;
+  font-weight: 500;
+}

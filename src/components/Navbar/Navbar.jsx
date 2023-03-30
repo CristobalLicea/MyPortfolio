@@ -8,7 +8,10 @@ const Navbar = () => {
       <div>
         <ul>
           <li>Home</li>
-          <li>About Me</li>
+          <li onClick={(e) => {
+            e.preventDefault();
+            document.querySelector('#about').scrollIntoView({ behavior: 'smooth'})
+          }}>About me</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>

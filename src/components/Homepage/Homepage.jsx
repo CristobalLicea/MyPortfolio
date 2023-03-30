@@ -1,11 +1,12 @@
 import React from "react";
-import {Landing} from '../index'
+import { Landing, About} from '../index'
 import './Homepage.css';
 
 const Homepage = () => {
   return (
     <div id='homepage'>
       <Landing />
+      <About />
     </div>
   );
 }
