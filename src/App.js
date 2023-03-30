@@ -5,8 +5,8 @@ import {
   Routes,
   Route,
   Outlet,
-  Navigate,
-  useNavigate
+  //Navigate,
+  //useNavigate
 } from 'react-router-dom';
 import { Homepage, Navbar } from './components';
 
@@ -27,7 +27,7 @@ function Layout() {
   return (
     <div>
       <Navbar />
-      <Outlet/>
+      <Outlet />
     </div>
   );
 }
